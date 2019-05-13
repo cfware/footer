@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>&lt;cfware-footer&gt; test</title>
+		<script type="module" src="footer.js"></script>
+		<style>
+			html, body {
+				display: inline-block!important;
+				margin: 0;
+				width: -moz-fit-content;
+			}
+
+			#test {
+				height: 4rem;
+				width: 40rem;
+				display: flex;
+				background: #eee;
+				display: flex;
+				flex-direction: column;
+			}
+
+			#test > div {
+				flex: 1;
+			}
+
+			svg {
+				background: blue;
+				/* use `1em` to verify default font-size of cfware-footer.  */
+				height: 1em;
+				width: 1em;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="test">
+			<div>
+				<!-- empty spacer to verify that the footer declines flex -->
+			</div>
+			<cfware-footer><svg></svg></cfware-footer>
+		</div>
+	</body>
+</html>
