@@ -9,9 +9,6 @@
 	},
 	"author": "Corey Farrell",
 	"license": "MIT",
-	"files": [
-		"footer.js"
-	],
 	"keywords": [
 		"custom-elements",
 		"footer",
