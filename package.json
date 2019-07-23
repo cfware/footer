@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/footer",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Basic page footer element",
 	"main": "footer.js",
 	"scripts": {
